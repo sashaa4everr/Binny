@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mi Reciclaje</title>
+
+<link rel="stylesheet" href="reciclaje.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <h1>Mi reciclaje</h1>
+
+</header>
+
+
+<section class="stats-grid">
+
+    <div class="stat-card green">
+
+        <h2 id="peso-total">0kg</h2>
+        <p>Total reciclado</p>
+
+    </div>
+
+    <div class="stat-card dark">
+
+        <h2 id="botellas">0</h2>
+        <p>Botellas recicladas</p>
+
+    </div>
+
+    <div class="stat-card orange">
+
+        <h2 id="puntos"></h2>
+        <p></p>
+
+    </div>
+
+</section>
+
+
+<section class="chart-section">
+
+    <div class="chart-card">
+
+        <h2>Actividad semanal</h2>
+
+        <canvas id="grafica"></canvas>
+
+    </div>
+
+</section>
+
+
+<section class="history">
+
+    <h2>Últimos reciclajes</h2>
+
+    <div class="history-list">
+
+        <div class="history-item">
+            <span>Botella plástica</span>
+            <span>+5 pts</span>
+        </div>
+
+        <div class="history-item">
+            <span>Cartón</span>
+            <span>+2 pts</span>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="reciclaje.js"></script>
+
+</body>
+</html>
